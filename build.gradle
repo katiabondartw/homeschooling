@@ -30,7 +30,6 @@ compileTestKotlin {
 test {
     useJUnitPlatform()
 
-    // show standard out and standard error of the test JVM(s) on the console
     testLogging.showStandardStreams = true
 
     testLogging {
@@ -38,11 +37,4 @@ test {
     }
 }
 
-//apply plugin: "application"
 mainClassName = 'org.homeschooling.AppKt'
-//
-//run {
-//    if ( project.hasProperty("assignment") ) {
-//        args Eval.me(assignment)
-//    }
-//}
