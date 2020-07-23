@@ -7,7 +7,7 @@ Java 1.8
 
 ## How to run 
 ```
-./gradlew run --args="A:1,B:1,D:2,C:2"
+./go
 ```
 
 ## How to run tests
